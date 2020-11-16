@@ -1,0 +1,20 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$blue: #74B5E0;
+$font-stack: Garamond, sans-serif;
+$pink: #DD73BD;
+$orange: #F97304;
+
+body {
+  font: 100% $font-stack;
+  color: $blue;
+}
+
+.btn {
+  color: $pink;
+  font: 100% $font-stack;
+  border-radius: 5px;
+  background-color: $orange;
+}
